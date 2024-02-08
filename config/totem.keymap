@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp C_VOLUME_UP    &bt BT_CLR           &kp UP_ARROW      &kp EQUAL            &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-          &kp C_VOLUME_DOWN  &mt HOME LEFT_ARROW  &kp DOWN          &mt END RIGHT_ARROW  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp CAPS  &trans             &kp C_PREV           &kp K_PLAY_PAUSE  &kp C_NEXT           &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans
-                                                  &trans            &trans               &trans                  &mo 3                  &trans        &trans
+          &kp C_VOLUME_UP    &bt BT_CLR           &kp UP_ARROW      &kp EQUAL            &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_7             &kp NUMBER_8  &kp NUMBER_9            &kp PLUS
+          &kp C_VOLUME_DOWN  &mt HOME LEFT_ARROW  &kp DOWN          &mt END RIGHT_ARROW  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mt LEFT_SHIFT NUMBER_4  &mt RCTRL N5  &mt RIGHT_ALT NUMBER_6  &mt RGUI MINUS
+&kp CAPS  &trans             &kp C_PREV           &kp K_PLAY_PAUSE  &kp C_NEXT           &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3            &kp NUMBER_0    &trans
+                                                  &trans            &trans               &trans                  &mo 3                  &trans                   &kp N0
             >;
         };
 
